@@ -15,11 +15,12 @@ setup(
     zip_safe=True,
     maintainer='luk',
     maintainer_email='kuczynskilukasz@gmail.com',
-    description='TODO: Package description',
+    description='Package that pubsubs by Luk',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+                'talker = py_pubsub.publisher_member_function:main',
         ],
     },
 )
